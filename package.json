@@ -1,0 +1,28 @@
+{
+	"name": "motiot-backend",
+	"version": "1.0.0",
+	"description": "The backend site of motiot IoT remote",
+	"main": "index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npx nodemon",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "motiot-backend"
+	},
+	"author": "Primananda Andhika",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^8.0.1",
+		"socket.io": "^4.7.2"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/express": "^4.17.21"
+	}
+}
